@@ -7,6 +7,9 @@ export interface Data {
 
 export interface BarChartProps {
     data: Data[];
+    title: string;
+    xlabel: string;
+    ylabel: string;
 }
 
 export interface AxisBottomProps {
