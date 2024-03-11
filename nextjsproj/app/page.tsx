@@ -8,7 +8,6 @@ import monthYearData from '../../month_year_ct.json';
 import { Data } from "./types";
 import {useState, useRef} from 'react';
 import Conditional from "./components/Conditional";
-import Calendar from "./components/Calendar";
 
 export default function Home() {
 
@@ -80,7 +79,7 @@ export default function Home() {
    return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24"> 
     <div style={{"position": "absolute", "left": "300px", "top": "50px"}}>
-	    <button class="btn" id="btn" onClick={() => toggleDropdown()}>
+	    <button className="btn" id="btn" onClick={() => toggleDropdown()}>
 	    	Select Graph
     		 <i class="bx bx-chevron-down" id="arrow" ref={toggleArrowRef}></i>
 	    </button>

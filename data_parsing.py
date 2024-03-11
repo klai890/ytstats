@@ -162,8 +162,9 @@ def month_year_ct():
 
 
 
-# history_to_csv()
-# month_ct()
-# day_ct()
+# Create CSV files.
+history_to_csv()
+month_ct()
+day_ct()
 month_year_ct()
 
